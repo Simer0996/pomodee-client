@@ -3,7 +3,7 @@ import axios from 'axios';
 export const baseUrl =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:5000/api/v1'
-    : 'http://localhost:5000/api/v1';
+    : 'https://pomodee-server1.herokuapp.com/api/v1';
 
 export const login = async (params) => {
   try {
